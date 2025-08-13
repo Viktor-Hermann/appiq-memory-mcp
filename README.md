@@ -1,10 +1,20 @@
 # AppIQ Memory MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@Viktor-Hermann/appiq-memory-mcp)](https://smithery.ai/server/@Viktor-Hermann/appiq-memory-mcp)
+
 🧠 **Complete memory and coordination system for Flutter agent workflows with full transparency**
 
 The AppIQ Memory MCP Server provides complete visibility and coordination for Flutter development agents, enabling transparent task delegation, progress tracking, and persistent context across sessions.
 
 ## 🚀 Quick Start
+
+### Installing via Smithery
+
+To install appiq-memory-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Viktor-Hermann/appiq-memory-mcp):
+
+```bash
+npx -y @smithery/cli install @Viktor-Hermann/appiq-memory-mcp --client claude
+```
 
 ### Install via Smithery.ai (Recommended)
 
