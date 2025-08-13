@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "AppIQ Memory MCP Server for Flutter agent coordination with complete transparency",
   "main": "index.js",
+  "bin": {
+    "appiq-memory-mcp": "bin/appiq-memory-mcp"
+  },
   "type": "commonjs",
   "scripts": {
     "dev": "node index.js",
@@ -86,6 +89,7 @@
   },
   "files": [
     "index.js",
+    "bin/",
     "README.md",
     "LICENSE"
   ]

@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+/**
+ * AppIQ Memory MCP Server CLI
+ */
+
+require('../index.js');
