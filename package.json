@@ -1,0 +1,92 @@
+{
+  "name": "@appiq/memory-mcp-server",
+  "version": "1.0.0",
+  "description": "AppIQ Memory MCP Server for Flutter agent coordination with complete transparency",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "mcp",
+    "memory",
+    "agent",
+    "flutter",
+    "coordination",
+    "appiq",
+    "smithery",
+    "claude-code",
+    "transparency",
+    "workflow"
+  ],
+  "author": "AppIQ Workflow Team",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  },
+  "peerDependencies": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appiq-workflow/memory-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/appiq-workflow/memory-mcp-server/issues"
+  },
+  "homepage": "https://github.com/appiq-workflow/memory-mcp-server#readme",
+  "smithery": {
+    "name": "appiq-memory",
+    "displayName": "AppIQ Memory System",
+    "description": "Complete memory and coordination system for Flutter agent workflows with full transparency",
+    "version": "1.0.0",
+    "category": "productivity",
+    "tags": ["memory", "agents", "flutter", "coordination", "workflow", "transparency"],
+    "tools": [
+      {
+        "name": "log_agent_activity",
+        "description": "Log agent activities for complete transparency"
+      },
+      {
+        "name": "log_task_delegation", 
+        "description": "Log task delegations between agents"
+      },
+      {
+        "name": "track_task_progress",
+        "description": "Track progress of specific tasks"
+      },
+      {
+        "name": "update_feature_progress",
+        "description": "Update overall feature development progress"
+      },
+      {
+        "name": "get_memory_status",
+        "description": "Get current memory system status and activity overview"
+      },
+      {
+        "name": "get_full_context",
+        "description": "Get complete project context for agent coordination"
+      }
+    ],
+    "requirements": {
+      "node": ">=16.0.0"
+    },
+    "installation": {
+      "command": "npm create smithery @appiq/memory-mcp-server",
+      "postInstall": [
+        "Add to your ~/.claude.json config:",
+        "\"appiq-memory\": {",
+        "  \"command\": \"npx\",", 
+        "  \"args\": [\"@appiq/memory-mcp-server\"]",
+        "}"
+      ]
+    }
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
